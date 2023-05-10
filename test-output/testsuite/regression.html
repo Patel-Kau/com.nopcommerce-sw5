@@ -1,0 +1,221 @@
+<html>
+<head>
+<title>TestNG:  regression</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>regression</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed May 10 23:49:11 BST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>107 seconds (107802 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>regression </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.nopcommerce.testsuite.TestSuite.verifyProductArrangeInAlphaBaticalOrder()'><b>verifyProductArrangeInAlphaBaticalOrder</b><br>Test class: com.nopcommerce.testsuite.TestSuite<br/>
+<a href="#Output-1813375175" onClick='toggleBox("Output-1813375175", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1813375175" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1813375175">
+click On Computer Tab [[ChromeDriver: chrome on WINDOWS (2766321b317d316b98d4369a49f7d5e2)] -> xpath: //ul[@class='top-menu notmobile']//a[normalize-space()='Computers']]<br/>
+click On Desktop [[ChromeDriver: chrome on WINDOWS (2766321b317d316b98d4369a49f7d5e2)] -> xpath: //li[@class='active last']//a[normalize-space()='Desktops']]<br/>
+Get all product name after shorting <br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>com.nopcommerce.testsuite.TestSuite@1786f9d5</td></tr>
+<tr>
+<td title='com.nopcommerce.testsuite.ElectronicsTest.verifyUserShouldNavigateToCellPhonesPageSuccessfully()'><b>verifyUserShouldNavigateToCellPhonesPageSuccessfully</b><br>Test class: com.nopcommerce.testsuite.ElectronicsTest<br/>
+<a href="#Output-399653041" onClick='toggleBox("Output-399653041", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-399653041" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-399653041">
+mouse Hover To Electronic Tab [[ChromeDriver: chrome on WINDOWS (d7040043be0bb38b8bca6d07a889f334)] -> xpath: //ul[@class='top-menu notmobile']//a[normalize-space()='Electronics']]<br/>
+mouseHover ToCell Phones And Click [[ChromeDriver: chrome on WINDOWS (d7040043be0bb38b8bca6d07a889f334)] -> xpath: //ul[@class='top-menu notmobile']//a[normalize-space()='Cell phones']]<br/>
+get Cell Phone Text [[ChromeDriver: chrome on WINDOWS (d7040043be0bb38b8bca6d07a889f334)] -> xpath: //h1[normalize-space()='Cell phones']]<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.nopcommerce.testsuite.ElectronicsTest@192d3247</td></tr>
+<tr>
+<td title='com.nopcommerce.testsuite.TestSuite.verifyProductAddedToShoppingCartSuccessFully()'><b>verifyProductAddedToShoppingCartSuccessFully</b><br>Test class: com.nopcommerce.testsuite.TestSuite<br/>
+<a href="#Output-1914740115" onClick='toggleBox("Output-1914740115", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1914740115" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1914740115">
+click On Computer Tab [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //ul[@class='top-menu notmobile']//a[normalize-space()='Computers']]<br/>
+click On Desktop [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //li[@class='active last']//a[normalize-space()='Desktops']]<br/>
+select Value From Shorting DropDown [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //select[@id='products-orderby']]<br/>
+click Add to Cart By ProductName <br/>
+get Build Your Own Computer Text [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //h1[normalize-space()='Build your own computer']]<br/>
+select Processor [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //select[@id='product_attribute_1']]<br/>
+select Ram [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //select[@id='product_attribute_2']]<br/>
+select HDD <br/>
+select Os <br/>
+ select Microsoft Office SoftwareOption By.xpath: //input[@id='product_attribute_5_10']<br/>
+ select Total Commander Software Option [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[@id='product_attribute_5_12']]<br/>
+get Total Price Text [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //div[@class='product-price']//span]<br/>
+click On Add to Cart [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //button[@id='add-to-cart-button-1']]<br/>
+get Successfully Added To CartText [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //div[@id='bar-notification']]<br/>
+close Notification Bar [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //span[@title='Close']]<br/>
+mouse Hover To ShoppingCart [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //span[@class='cart-label']]<br/>
+mouse Hover To ShoppingCart And ClickOnCart [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //button[normalize-space()='Go to cart']]<br/>
+get Shopping CartText [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //h1[normalize-space()='Shopping cart']]<br/>
+change Value Of Quantity [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[contains(@id,'itemquantity')]]<br/>
+update Shopping Cart [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //button[@id='updatecart']]<br/>
+get PriceText [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //span[@class='value-summary']//strong]<br/>
+select Terms And Condition [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[@id='termsofservice']]<br/>
+click On CheckOut [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //button[@id='checkout']]<br/>
+get Welcome Text [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //h1[contains(text(),'Welcome, Please Sign In!')]]<br/>
+click On Guest Checkout [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //button[normalize-space()='Checkout as Guest']]<br/>
+enter Firstname [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[@id='BillingNewAddress_FirstName']]<br/>
+enter Lastname [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[@id='BillingNewAddress_LastName']]<br/>
+enter Email [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[@id='BillingNewAddress_Email']]<br/>
+select Country [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[@id='BillingNewAddress_Email']]<br/>
+enter City [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[@id='BillingNewAddress_City']]<br/>
+enter Address1 [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[@id='BillingNewAddress_Address1']]<br/>
+enter Address1 [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[@id='BillingNewAddress_ZipPostalCode']]<br/>
+enter Phone Number [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[@id='BillingNewAddress_PhoneNumber']]<br/>
+click On Continue [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //button[@onclick='Billing.save()']]<br/>
+select Next DayAir [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[@id='shippingoption_1']]<br/>
+click On Shipping Continue [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //button[@class='button-1 shipping-method-next-step-button']]<br/>
+click On CreditCard [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[@id='paymentmethod_1']]<br/>
+click On Payment Continue [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //button[@class='button-1 payment-method-next-step-button']]<br/>
+select CreditCard Type [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //select[@id='CreditCardType']]<br/>
+enter Card Holder Name [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[@id='CardholderName']]<br/>
+ enter CardNumber [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[@id='CardNumber']]<br/>
+ select Expiration Date <br/>
+enter CardCode <br/>
+click On Payment Info Continue [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //button[@class='button-1 payment-info-next-step-button']]<br/>
+get Payment Type Text [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //span[normalize-space()='Credit Card']]<br/>
+get Shipping Method Text [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //span[normalize-space()='Next Day Air']]<br/>
+get Total PriceText [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //span[@class='product-subtotal']]<br/>
+click On Confirm [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //button[normalize-space()='Confirm']]<br/>
+get Thank You Text [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //h1[normalize-space()='Thank you']]<br/>
+get Successful Text [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //strong[normalize-space()='Your order has been successfully processed!']]<br/>
+click On Continue [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //button[normalize-space()='Continue']]<br/>
+get Welcome Store Text [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //h2[normalize-space()='Welcome to our store']]<br/>
+</div>
+</td>
+<td></td>
+<td>54</td>
+<td>com.nopcommerce.testsuite.TestSuite@1786f9d5</td></tr>
+<tr>
+<td title='com.nopcommerce.testsuite.ElectronicsTest.verifyThatTheProductAddedSuccessfullyAndPlaceOrderSuccessfully()'><b>verifyThatTheProductAddedSuccessfullyAndPlaceOrderSuccessfully</b><br>Test class: com.nopcommerce.testsuite.ElectronicsTest<br/>
+<a href="#Output-121678773" onClick='toggleBox("Output-121678773", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-121678773" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-121678773">
+mouse Hover To Electronic Tab [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //ul[@class='top-menu notmobile']//a[normalize-space()='Electronics']]<br/>
+mouseHover ToCell Phones And Click [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //ul[@class='top-menu notmobile']//a[normalize-space()='Cell phones']]<br/>
+get Cell Phone Text [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //h1[normalize-space()='Cell phones']]<br/>
+click On List ViewIcon [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //h1[normalize-space()='Cell phones']]<br/>
+select Phone FromList <br/>
+get Product NameText [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //h1[normalize-space()='Nokia Lumia 1020']]<br/>
+get PriceText [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //div[@class='product-price']//span[normalize-space()='$349.00']]<br/>
+update Quantity [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //input[@id='product_enteredQuantity_20']]<br/>
+click On Add ToCart [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //button[@id='add-to-cart-button-20']]<br/>
+get Successfull Added To CartText [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //div[@id='bar-notification']]<br/>
+close Notification Bar [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //span[@title='Close']]<br/>
+mouse Hover To Shopping Card [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //span[@class='cart-label']]<br/>
+mouse Hover To GoTo Card And Click [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //button[normalize-space()='Go to cart']]<br/>
+get Shopping CartText [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //h1[normalize-space()='Shopping cart']]<br/>
+get Number Of Quantity Value [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //button[normalize-space()='Go to cart']]<br/>
+get PriceText [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //span[@class='value-summary']//strong]<br/>
+select Terms And Condition [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //input[@id='termsofservice']]<br/>
+click On CheckOut [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //button[@id='checkout']]<br/>
+get Welcome Text [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //h1[contains(text(),'Welcome, Please Sign In!')]]<br/>
+click On Register Tab [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //button[@class='button-1 register-button']]<br/>
+enter Firstname [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //input[@id='FirstName']]<br/>
+enter Lastname [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //input[@id='LastName']]<br/>
+enter Email [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //input[@id='Email']]<br/>
+enter Password [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //input[@id='Password']]<br/>
+enter Confirm Password [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //input[@id='ConfirmPassword']]<br/>
+click On Register Button [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //button[@id='register-button']]<br/>
+get Registration Completed Text [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //div[@class='result']]<br/>
+</div>
+</td>
+<td></td>
+<td>27</td>
+<td>com.nopcommerce.testsuite.ElectronicsTest@192d3247</td></tr>
+<tr>
+<td title='com.nopcommerce.testsuite.TopMenuTest.verifyPageNavigation()'><b>verifyPageNavigation</b><br>Test class: com.nopcommerce.testsuite.TopMenuTest<br/>
+<a href="#Output-1684802151" onClick='toggleBox("Output-1684802151", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1684802151" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1684802151">
+This method select menu on top menu <br/>
+get Electronics HeaderText [[ChromeDriver: chrome on WINDOWS (6c6f84af396565ab597a723d2990b2f5)] -> xpath: //h1[normalize-space()='Electronics']]<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.nopcommerce.testsuite.TopMenuTest@43a0cee9</td></tr>
+</table><p>
+</body>
+</html>

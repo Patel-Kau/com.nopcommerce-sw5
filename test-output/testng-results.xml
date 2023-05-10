@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[mouse Hover To Electronic Tab [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //ul[@class='top-menu notmobile']//a[normalize-space()='Electronics']]]]>
+    </line>
+    <line>
+      <![CDATA[mouseHover ToCell Phones And Click [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //ul[@class='top-menu notmobile']//a[normalize-space()='Cell phones']]]]>
+    </line>
+    <line>
+      <![CDATA[get Cell Phone Text [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //h1[normalize-space()='Cell phones']]]]>
+    </line>
+    <line>
+      <![CDATA[click On List ViewIcon [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //h1[normalize-space()='Cell phones']]]]>
+    </line>
+    <line>
+      <![CDATA[select Phone FromList ]]>
+    </line>
+    <line>
+      <![CDATA[get Product NameText [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //h1[normalize-space()='Nokia Lumia 1020']]]]>
+    </line>
+    <line>
+      <![CDATA[get PriceText [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //div[@class='product-price']//span[normalize-space()='$349.00']]]]>
+    </line>
+    <line>
+      <![CDATA[update Quantity [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //input[@id='product_enteredQuantity_20']]]]>
+    </line>
+    <line>
+      <![CDATA[click On Add ToCart [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //button[@id='add-to-cart-button-20']]]]>
+    </line>
+    <line>
+      <![CDATA[get Successfull Added To CartText [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //div[@id='bar-notification']]]]>
+    </line>
+    <line>
+      <![CDATA[close Notification Bar [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //span[@title='Close']]]]>
+    </line>
+    <line>
+      <![CDATA[mouse Hover To Shopping Card [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //span[@class='cart-label']]]]>
+    </line>
+    <line>
+      <![CDATA[mouse Hover To GoTo Card And Click [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //button[normalize-space()='Go to cart']]]]>
+    </line>
+    <line>
+      <![CDATA[get Shopping CartText [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //h1[normalize-space()='Shopping cart']]]]>
+    </line>
+    <line>
+      <![CDATA[get Number Of Quantity Value [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //button[normalize-space()='Go to cart']]]]>
+    </line>
+    <line>
+      <![CDATA[get PriceText [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //span[@class='value-summary']//strong]]]>
+    </line>
+    <line>
+      <![CDATA[select Terms And Condition [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //input[@id='termsofservice']]]]>
+    </line>
+    <line>
+      <![CDATA[click On CheckOut [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //button[@id='checkout']]]]>
+    </line>
+    <line>
+      <![CDATA[get Welcome Text [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //h1[contains(text(),'Welcome, Please Sign In!')]]]]>
+    </line>
+    <line>
+      <![CDATA[click On Register Tab [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //button[@class='button-1 register-button']]]]>
+    </line>
+    <line>
+      <![CDATA[enter Firstname [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //input[@id='FirstName']]]]>
+    </line>
+    <line>
+      <![CDATA[enter Lastname [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //input[@id='LastName']]]]>
+    </line>
+    <line>
+      <![CDATA[enter Email [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //input[@id='Email']]]]>
+    </line>
+    <line>
+      <![CDATA[enter Password [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //input[@id='Password']]]]>
+    </line>
+    <line>
+      <![CDATA[enter Confirm Password [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //input[@id='ConfirmPassword']]]]>
+    </line>
+    <line>
+      <![CDATA[click On Register Button [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //button[@id='register-button']]]]>
+    </line>
+    <line>
+      <![CDATA[get Registration Completed Text [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //div[@class='result']]]]>
+    </line>
+    <line>
+      <![CDATA[mouse Hover To Electronic Tab [[ChromeDriver: chrome on WINDOWS (d7040043be0bb38b8bca6d07a889f334)] -> xpath: //ul[@class='top-menu notmobile']//a[normalize-space()='Electronics']]]]>
+    </line>
+    <line>
+      <![CDATA[mouseHover ToCell Phones And Click [[ChromeDriver: chrome on WINDOWS (d7040043be0bb38b8bca6d07a889f334)] -> xpath: //ul[@class='top-menu notmobile']//a[normalize-space()='Cell phones']]]]>
+    </line>
+    <line>
+      <![CDATA[get Cell Phone Text [[ChromeDriver: chrome on WINDOWS (d7040043be0bb38b8bca6d07a889f334)] -> xpath: //h1[normalize-space()='Cell phones']]]]>
+    </line>
+    <line>
+      <![CDATA[click On Computer Tab [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //ul[@class='top-menu notmobile']//a[normalize-space()='Computers']]]]>
+    </line>
+    <line>
+      <![CDATA[click On Desktop [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //li[@class='active last']//a[normalize-space()='Desktops']]]]>
+    </line>
+    <line>
+      <![CDATA[select Value From Shorting DropDown [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //select[@id='products-orderby']]]]>
+    </line>
+    <line>
+      <![CDATA[click Add to Cart By ProductName ]]>
+    </line>
+    <line>
+      <![CDATA[get Build Your Own Computer Text [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //h1[normalize-space()='Build your own computer']]]]>
+    </line>
+    <line>
+      <![CDATA[select Processor [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //select[@id='product_attribute_1']]]]>
+    </line>
+    <line>
+      <![CDATA[select Ram [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //select[@id='product_attribute_2']]]]>
+    </line>
+    <line>
+      <![CDATA[select HDD ]]>
+    </line>
+    <line>
+      <![CDATA[select Os ]]>
+    </line>
+    <line>
+      <![CDATA[ select Microsoft Office SoftwareOption By.xpath: //input[@id='product_attribute_5_10']]]>
+    </line>
+    <line>
+      <![CDATA[ select Total Commander Software Option [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[@id='product_attribute_5_12']]]]>
+    </line>
+    <line>
+      <![CDATA[get Total Price Text [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //div[@class='product-price']//span]]]>
+    </line>
+    <line>
+      <![CDATA[click On Add to Cart [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //button[@id='add-to-cart-button-1']]]]>
+    </line>
+    <line>
+      <![CDATA[get Successfully Added To CartText [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //div[@id='bar-notification']]]]>
+    </line>
+    <line>
+      <![CDATA[close Notification Bar [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //span[@title='Close']]]]>
+    </line>
+    <line>
+      <![CDATA[mouse Hover To ShoppingCart [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //span[@class='cart-label']]]]>
+    </line>
+    <line>
+      <![CDATA[mouse Hover To ShoppingCart And ClickOnCart [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //button[normalize-space()='Go to cart']]]]>
+    </line>
+    <line>
+      <![CDATA[get Shopping CartText [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //h1[normalize-space()='Shopping cart']]]]>
+    </line>
+    <line>
+      <![CDATA[change Value Of Quantity [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[contains(@id,'itemquantity')]]]]>
+    </line>
+    <line>
+      <![CDATA[update Shopping Cart [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //button[@id='updatecart']]]]>
+    </line>
+    <line>
+      <![CDATA[get PriceText [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //span[@class='value-summary']//strong]]]>
+    </line>
+    <line>
+      <![CDATA[select Terms And Condition [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[@id='termsofservice']]]]>
+    </line>
+    <line>
+      <![CDATA[click On CheckOut [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //button[@id='checkout']]]]>
+    </line>
+    <line>
+      <![CDATA[get Welcome Text [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //h1[contains(text(),'Welcome, Please Sign In!')]]]]>
+    </line>
+    <line>
+      <![CDATA[click On Guest Checkout [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //button[normalize-space()='Checkout as Guest']]]]>
+    </line>
+    <line>
+      <![CDATA[enter Firstname [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[@id='BillingNewAddress_FirstName']]]]>
+    </line>
+    <line>
+      <![CDATA[enter Lastname [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[@id='BillingNewAddress_LastName']]]]>
+    </line>
+    <line>
+      <![CDATA[enter Email [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[@id='BillingNewAddress_Email']]]]>
+    </line>
+    <line>
+      <![CDATA[select Country [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[@id='BillingNewAddress_Email']]]]>
+    </line>
+    <line>
+      <![CDATA[enter City [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[@id='BillingNewAddress_City']]]]>
+    </line>
+    <line>
+      <![CDATA[enter Address1 [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[@id='BillingNewAddress_Address1']]]]>
+    </line>
+    <line>
+      <![CDATA[enter Address1 [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[@id='BillingNewAddress_ZipPostalCode']]]]>
+    </line>
+    <line>
+      <![CDATA[enter Phone Number [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[@id='BillingNewAddress_PhoneNumber']]]]>
+    </line>
+    <line>
+      <![CDATA[click On Continue [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //button[@onclick='Billing.save()']]]]>
+    </line>
+    <line>
+      <![CDATA[select Next DayAir [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[@id='shippingoption_1']]]]>
+    </line>
+    <line>
+      <![CDATA[click On Shipping Continue [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //button[@class='button-1 shipping-method-next-step-button']]]]>
+    </line>
+    <line>
+      <![CDATA[click On CreditCard [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[@id='paymentmethod_1']]]]>
+    </line>
+    <line>
+      <![CDATA[click On Payment Continue [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //button[@class='button-1 payment-method-next-step-button']]]]>
+    </line>
+    <line>
+      <![CDATA[select CreditCard Type [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //select[@id='CreditCardType']]]]>
+    </line>
+    <line>
+      <![CDATA[enter Card Holder Name [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[@id='CardholderName']]]]>
+    </line>
+    <line>
+      <![CDATA[ enter CardNumber [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[@id='CardNumber']]]]>
+    </line>
+    <line>
+      <![CDATA[ select Expiration Date ]]>
+    </line>
+    <line>
+      <![CDATA[enter CardCode ]]>
+    </line>
+    <line>
+      <![CDATA[click On Payment Info Continue [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //button[@class='button-1 payment-info-next-step-button']]]]>
+    </line>
+    <line>
+      <![CDATA[get Payment Type Text [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //span[normalize-space()='Credit Card']]]]>
+    </line>
+    <line>
+      <![CDATA[get Shipping Method Text [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //span[normalize-space()='Next Day Air']]]]>
+    </line>
+    <line>
+      <![CDATA[get Total PriceText [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //span[@class='product-subtotal']]]]>
+    </line>
+    <line>
+      <![CDATA[click On Confirm [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //button[normalize-space()='Confirm']]]]>
+    </line>
+    <line>
+      <![CDATA[get Thank You Text [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //h1[normalize-space()='Thank you']]]]>
+    </line>
+    <line>
+      <![CDATA[get Successful Text [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //strong[normalize-space()='Your order has been successfully processed!']]]]>
+    </line>
+    <line>
+      <![CDATA[click On Continue [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //button[normalize-space()='Continue']]]]>
+    </line>
+    <line>
+      <![CDATA[get Welcome Store Text [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //h2[normalize-space()='Welcome to our store']]]]>
+    </line>
+    <line>
+      <![CDATA[click On Computer Tab [[ChromeDriver: chrome on WINDOWS (2766321b317d316b98d4369a49f7d5e2)] -> xpath: //ul[@class='top-menu notmobile']//a[normalize-space()='Computers']]]]>
+    </line>
+    <line>
+      <![CDATA[click On Desktop [[ChromeDriver: chrome on WINDOWS (2766321b317d316b98d4369a49f7d5e2)] -> xpath: //li[@class='active last']//a[normalize-space()='Desktops']]]]>
+    </line>
+    <line>
+      <![CDATA[Get all product name after shorting ]]>
+    </line>
+    <line>
+      <![CDATA[This method select menu on top menu ]]>
+    </line>
+    <line>
+      <![CDATA[get Electronics HeaderText [[ChromeDriver: chrome on WINDOWS (6c6f84af396565ab597a723d2990b2f5)] -> xpath: //h1[normalize-space()='Electronics']]]]>
+    </line>
+  </reporter-output>
+  <suite name="testsuite" duration-ms="107802" started-at="2023-05-10T23:49:11 BST" finished-at="2023-05-10T23:50:59 BST">
+    <groups>
+      <group name="regression">
+        <method signature="ElectronicsTest.verifyThatTheProductAddedSuccessfullyAndPlaceOrderSuccessfully()[pri:0, instance:com.nopcommerce.testsuite.ElectronicsTest@192d3247]" name="verifyThatTheProductAddedSuccessfullyAndPlaceOrderSuccessfully" class="com.nopcommerce.testsuite.ElectronicsTest"/>
+        <method signature="ElectronicsTest.verifyUserShouldNavigateToCellPhonesPageSuccessfully()[pri:0, instance:com.nopcommerce.testsuite.ElectronicsTest@192d3247]" name="verifyUserShouldNavigateToCellPhonesPageSuccessfully" class="com.nopcommerce.testsuite.ElectronicsTest"/>
+        <method signature="TestSuite.verifyProductAddedToShoppingCartSuccessFully()[pri:0, instance:com.nopcommerce.testsuite.TestSuite@1786f9d5]" name="verifyProductAddedToShoppingCartSuccessFully" class="com.nopcommerce.testsuite.TestSuite"/>
+        <method signature="TestSuite.verifyProductArrangeInAlphaBaticalOrder()[pri:0, instance:com.nopcommerce.testsuite.TestSuite@1786f9d5]" name="verifyProductArrangeInAlphaBaticalOrder" class="com.nopcommerce.testsuite.TestSuite"/>
+        <method signature="TopMenuTest.verifyPageNavigation()[pri:0, instance:com.nopcommerce.testsuite.TopMenuTest@43a0cee9]" name="verifyPageNavigation" class="com.nopcommerce.testsuite.TopMenuTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="ElectronicsTest.verifyThatTheProductAddedSuccessfullyAndPlaceOrderSuccessfully()[pri:0, instance:com.nopcommerce.testsuite.ElectronicsTest@192d3247]" name="verifyThatTheProductAddedSuccessfullyAndPlaceOrderSuccessfully" class="com.nopcommerce.testsuite.ElectronicsTest"/>
+        <method signature="TestSuite.verifyProductAddedToShoppingCartSuccessFully()[pri:0, instance:com.nopcommerce.testsuite.TestSuite@1786f9d5]" name="verifyProductAddedToShoppingCartSuccessFully" class="com.nopcommerce.testsuite.TestSuite"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="ElectronicsTest.verifyUserShouldNavigateToCellPhonesPageSuccessfully()[pri:0, instance:com.nopcommerce.testsuite.ElectronicsTest@192d3247]" name="verifyUserShouldNavigateToCellPhonesPageSuccessfully" class="com.nopcommerce.testsuite.ElectronicsTest"/>
+        <method signature="TestSuite.verifyProductArrangeInAlphaBaticalOrder()[pri:0, instance:com.nopcommerce.testsuite.TestSuite@1786f9d5]" name="verifyProductArrangeInAlphaBaticalOrder" class="com.nopcommerce.testsuite.TestSuite"/>
+        <method signature="TopMenuTest.verifyPageNavigation()[pri:0, instance:com.nopcommerce.testsuite.TopMenuTest@43a0cee9]" name="verifyPageNavigation" class="com.nopcommerce.testsuite.TopMenuTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="regression" duration-ms="107802" started-at="2023-05-10T23:49:11 BST" finished-at="2023-05-10T23:50:59 BST">
+      <class name="com.nopcommerce.testsuite.ElectronicsTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommerce.testsuite.ElectronicsTest@192d3247]" name="setUp" is-config="true" duration-ms="2741" started-at="2023-05-10T23:49:11 BST" finished-at="2023-05-10T23:49:14 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.nopcommerce.testsuite.ElectronicsTest@192d3247]" name="init" is-config="true" duration-ms="25" started-at="2023-05-10T23:49:14 BST" finished-at="2023-05-10T23:49:14 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="verifyThatTheProductAddedSuccessfullyAndPlaceOrderSuccessfully()[pri:0, instance:com.nopcommerce.testsuite.ElectronicsTest@192d3247]" name="verifyThatTheProductAddedSuccessfullyAndPlaceOrderSuccessfully" duration-ms="27303" started-at="2023-05-10T23:49:14 BST" finished-at="2023-05-10T23:49:41 BST">
+          <reporter-output>
+            <line>
+              <![CDATA[mouse Hover To Electronic Tab [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //ul[@class='top-menu notmobile']//a[normalize-space()='Electronics']]]]>
+            </line>
+            <line>
+              <![CDATA[mouseHover ToCell Phones And Click [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //ul[@class='top-menu notmobile']//a[normalize-space()='Cell phones']]]]>
+            </line>
+            <line>
+              <![CDATA[get Cell Phone Text [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //h1[normalize-space()='Cell phones']]]]>
+            </line>
+            <line>
+              <![CDATA[click On List ViewIcon [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //h1[normalize-space()='Cell phones']]]]>
+            </line>
+            <line>
+              <![CDATA[select Phone FromList ]]>
+            </line>
+            <line>
+              <![CDATA[get Product NameText [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //h1[normalize-space()='Nokia Lumia 1020']]]]>
+            </line>
+            <line>
+              <![CDATA[get PriceText [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //div[@class='product-price']//span[normalize-space()='$349.00']]]]>
+            </line>
+            <line>
+              <![CDATA[update Quantity [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //input[@id='product_enteredQuantity_20']]]]>
+            </line>
+            <line>
+              <![CDATA[click On Add ToCart [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //button[@id='add-to-cart-button-20']]]]>
+            </line>
+            <line>
+              <![CDATA[get Successfull Added To CartText [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //div[@id='bar-notification']]]]>
+            </line>
+            <line>
+              <![CDATA[close Notification Bar [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //span[@title='Close']]]]>
+            </line>
+            <line>
+              <![CDATA[mouse Hover To Shopping Card [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //span[@class='cart-label']]]]>
+            </line>
+            <line>
+              <![CDATA[mouse Hover To GoTo Card And Click [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //button[normalize-space()='Go to cart']]]]>
+            </line>
+            <line>
+              <![CDATA[get Shopping CartText [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //h1[normalize-space()='Shopping cart']]]]>
+            </line>
+            <line>
+              <![CDATA[get Number Of Quantity Value [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //button[normalize-space()='Go to cart']]]]>
+            </line>
+            <line>
+              <![CDATA[get PriceText [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //span[@class='value-summary']//strong]]]>
+            </line>
+            <line>
+              <![CDATA[select Terms And Condition [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //input[@id='termsofservice']]]]>
+            </line>
+            <line>
+              <![CDATA[click On CheckOut [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //button[@id='checkout']]]]>
+            </line>
+            <line>
+              <![CDATA[get Welcome Text [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //h1[contains(text(),'Welcome, Please Sign In!')]]]]>
+            </line>
+            <line>
+              <![CDATA[click On Register Tab [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //button[@class='button-1 register-button']]]]>
+            </line>
+            <line>
+              <![CDATA[enter Firstname [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //input[@id='FirstName']]]]>
+            </line>
+            <line>
+              <![CDATA[enter Lastname [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //input[@id='LastName']]]]>
+            </line>
+            <line>
+              <![CDATA[enter Email [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //input[@id='Email']]]]>
+            </line>
+            <line>
+              <![CDATA[enter Password [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //input[@id='Password']]]]>
+            </line>
+            <line>
+              <![CDATA[enter Confirm Password [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //input[@id='ConfirmPassword']]]]>
+            </line>
+            <line>
+              <![CDATA[click On Register Button [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //button[@id='register-button']]]]>
+            </line>
+            <line>
+              <![CDATA[get Registration Completed Text [[ChromeDriver: chrome on WINDOWS (290d138fd07714399765d5f81b43d9c3)] -> xpath: //div[@class='result']]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyThatTheProductAddedSuccessfullyAndPlaceOrderSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.testsuite.ElectronicsTest@192d3247]" name="tearDown" is-config="true" duration-ms="645" started-at="2023-05-10T23:49:41 BST" finished-at="2023-05-10T23:49:42 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommerce.testsuite.ElectronicsTest@192d3247]" name="setUp" is-config="true" duration-ms="1507" started-at="2023-05-10T23:49:42 BST" finished-at="2023-05-10T23:49:43 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.nopcommerce.testsuite.ElectronicsTest@192d3247]" name="init" is-config="true" duration-ms="1" started-at="2023-05-10T23:49:43 BST" finished-at="2023-05-10T23:49:43 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="verifyUserShouldNavigateToCellPhonesPageSuccessfully()[pri:0, instance:com.nopcommerce.testsuite.ElectronicsTest@192d3247]" name="verifyUserShouldNavigateToCellPhonesPageSuccessfully" duration-ms="2155" started-at="2023-05-10T23:49:43 BST" finished-at="2023-05-10T23:49:46 BST">
+          <reporter-output>
+            <line>
+              <![CDATA[mouse Hover To Electronic Tab [[ChromeDriver: chrome on WINDOWS (d7040043be0bb38b8bca6d07a889f334)] -> xpath: //ul[@class='top-menu notmobile']//a[normalize-space()='Electronics']]]]>
+            </line>
+            <line>
+              <![CDATA[mouseHover ToCell Phones And Click [[ChromeDriver: chrome on WINDOWS (d7040043be0bb38b8bca6d07a889f334)] -> xpath: //ul[@class='top-menu notmobile']//a[normalize-space()='Cell phones']]]]>
+            </line>
+            <line>
+              <![CDATA[get Cell Phone Text [[ChromeDriver: chrome on WINDOWS (d7040043be0bb38b8bca6d07a889f334)] -> xpath: //h1[normalize-space()='Cell phones']]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUserShouldNavigateToCellPhonesPageSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.testsuite.ElectronicsTest@192d3247]" name="tearDown" is-config="true" duration-ms="615" started-at="2023-05-10T23:49:46 BST" finished-at="2023-05-10T23:49:46 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.testsuite.ElectronicsTest -->
+      <class name="com.nopcommerce.testsuite.TopMenuTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommerce.testsuite.TopMenuTest@43a0cee9]" name="setUp" is-config="true" duration-ms="1839" started-at="2023-05-10T23:50:55 BST" finished-at="2023-05-10T23:50:57 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.nopcommerce.testsuite.TopMenuTest@43a0cee9]" name="init" is-config="true" duration-ms="1" started-at="2023-05-10T23:50:57 BST" finished-at="2023-05-10T23:50:57 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="verifyPageNavigation()[pri:0, instance:com.nopcommerce.testsuite.TopMenuTest@43a0cee9]" name="verifyPageNavigation" duration-ms="871" started-at="2023-05-10T23:50:57 BST" finished-at="2023-05-10T23:50:58 BST">
+          <reporter-output>
+            <line>
+              <![CDATA[This method select menu on top menu ]]>
+            </line>
+            <line>
+              <![CDATA[get Electronics HeaderText [[ChromeDriver: chrome on WINDOWS (6c6f84af396565ab597a723d2990b2f5)] -> xpath: //h1[normalize-space()='Electronics']]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyPageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.testsuite.TopMenuTest@43a0cee9]" name="tearDown" is-config="true" duration-ms="627" started-at="2023-05-10T23:50:58 BST" finished-at="2023-05-10T23:50:59 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.testsuite.TopMenuTest -->
+      <class name="com.nopcommerce.testsuite.TestSuite">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommerce.testsuite.TestSuite@1786f9d5]" name="setUp" is-config="true" duration-ms="1929" started-at="2023-05-10T23:49:46 BST" finished-at="2023-05-10T23:49:48 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.nopcommerce.testsuite.TestSuite@1786f9d5]" name="init" is-config="true" duration-ms="5" started-at="2023-05-10T23:49:48 BST" finished-at="2023-05-10T23:49:48 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="verifyProductAddedToShoppingCartSuccessFully()[pri:0, instance:com.nopcommerce.testsuite.TestSuite@1786f9d5]" name="verifyProductAddedToShoppingCartSuccessFully" duration-ms="54962" started-at="2023-05-10T23:49:48 BST" finished-at="2023-05-10T23:50:43 BST">
+          <reporter-output>
+            <line>
+              <![CDATA[click On Computer Tab [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //ul[@class='top-menu notmobile']//a[normalize-space()='Computers']]]]>
+            </line>
+            <line>
+              <![CDATA[click On Desktop [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //li[@class='active last']//a[normalize-space()='Desktops']]]]>
+            </line>
+            <line>
+              <![CDATA[select Value From Shorting DropDown [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //select[@id='products-orderby']]]]>
+            </line>
+            <line>
+              <![CDATA[click Add to Cart By ProductName ]]>
+            </line>
+            <line>
+              <![CDATA[get Build Your Own Computer Text [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //h1[normalize-space()='Build your own computer']]]]>
+            </line>
+            <line>
+              <![CDATA[select Processor [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //select[@id='product_attribute_1']]]]>
+            </line>
+            <line>
+              <![CDATA[select Ram [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //select[@id='product_attribute_2']]]]>
+            </line>
+            <line>
+              <![CDATA[select HDD ]]>
+            </line>
+            <line>
+              <![CDATA[select Os ]]>
+            </line>
+            <line>
+              <![CDATA[ select Microsoft Office SoftwareOption By.xpath: //input[@id='product_attribute_5_10']]]>
+            </line>
+            <line>
+              <![CDATA[ select Total Commander Software Option [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[@id='product_attribute_5_12']]]]>
+            </line>
+            <line>
+              <![CDATA[get Total Price Text [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //div[@class='product-price']//span]]]>
+            </line>
+            <line>
+              <![CDATA[click On Add to Cart [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //button[@id='add-to-cart-button-1']]]]>
+            </line>
+            <line>
+              <![CDATA[get Successfully Added To CartText [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //div[@id='bar-notification']]]]>
+            </line>
+            <line>
+              <![CDATA[close Notification Bar [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //span[@title='Close']]]]>
+            </line>
+            <line>
+              <![CDATA[mouse Hover To ShoppingCart [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //span[@class='cart-label']]]]>
+            </line>
+            <line>
+              <![CDATA[mouse Hover To ShoppingCart And ClickOnCart [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //button[normalize-space()='Go to cart']]]]>
+            </line>
+            <line>
+              <![CDATA[get Shopping CartText [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //h1[normalize-space()='Shopping cart']]]]>
+            </line>
+            <line>
+              <![CDATA[change Value Of Quantity [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[contains(@id,'itemquantity')]]]]>
+            </line>
+            <line>
+              <![CDATA[update Shopping Cart [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //button[@id='updatecart']]]]>
+            </line>
+            <line>
+              <![CDATA[get PriceText [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //span[@class='value-summary']//strong]]]>
+            </line>
+            <line>
+              <![CDATA[select Terms And Condition [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[@id='termsofservice']]]]>
+            </line>
+            <line>
+              <![CDATA[click On CheckOut [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //button[@id='checkout']]]]>
+            </line>
+            <line>
+              <![CDATA[get Welcome Text [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //h1[contains(text(),'Welcome, Please Sign In!')]]]]>
+            </line>
+            <line>
+              <![CDATA[click On Guest Checkout [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //button[normalize-space()='Checkout as Guest']]]]>
+            </line>
+            <line>
+              <![CDATA[enter Firstname [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[@id='BillingNewAddress_FirstName']]]]>
+            </line>
+            <line>
+              <![CDATA[enter Lastname [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[@id='BillingNewAddress_LastName']]]]>
+            </line>
+            <line>
+              <![CDATA[enter Email [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[@id='BillingNewAddress_Email']]]]>
+            </line>
+            <line>
+              <![CDATA[select Country [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[@id='BillingNewAddress_Email']]]]>
+            </line>
+            <line>
+              <![CDATA[enter City [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[@id='BillingNewAddress_City']]]]>
+            </line>
+            <line>
+              <![CDATA[enter Address1 [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[@id='BillingNewAddress_Address1']]]]>
+            </line>
+            <line>
+              <![CDATA[enter Address1 [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[@id='BillingNewAddress_ZipPostalCode']]]]>
+            </line>
+            <line>
+              <![CDATA[enter Phone Number [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[@id='BillingNewAddress_PhoneNumber']]]]>
+            </line>
+            <line>
+              <![CDATA[click On Continue [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //button[@onclick='Billing.save()']]]]>
+            </line>
+            <line>
+              <![CDATA[select Next DayAir [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[@id='shippingoption_1']]]]>
+            </line>
+            <line>
+              <![CDATA[click On Shipping Continue [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //button[@class='button-1 shipping-method-next-step-button']]]]>
+            </line>
+            <line>
+              <![CDATA[click On CreditCard [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[@id='paymentmethod_1']]]]>
+            </line>
+            <line>
+              <![CDATA[click On Payment Continue [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //button[@class='button-1 payment-method-next-step-button']]]]>
+            </line>
+            <line>
+              <![CDATA[select CreditCard Type [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //select[@id='CreditCardType']]]]>
+            </line>
+            <line>
+              <![CDATA[enter Card Holder Name [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[@id='CardholderName']]]]>
+            </line>
+            <line>
+              <![CDATA[ enter CardNumber [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //input[@id='CardNumber']]]]>
+            </line>
+            <line>
+              <![CDATA[ select Expiration Date ]]>
+            </line>
+            <line>
+              <![CDATA[enter CardCode ]]>
+            </line>
+            <line>
+              <![CDATA[click On Payment Info Continue [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //button[@class='button-1 payment-info-next-step-button']]]]>
+            </line>
+            <line>
+              <![CDATA[get Payment Type Text [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //span[normalize-space()='Credit Card']]]]>
+            </line>
+            <line>
+              <![CDATA[get Shipping Method Text [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //span[normalize-space()='Next Day Air']]]]>
+            </line>
+            <line>
+              <![CDATA[get Total PriceText [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //span[@class='product-subtotal']]]]>
+            </line>
+            <line>
+              <![CDATA[click On Confirm [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //button[normalize-space()='Confirm']]]]>
+            </line>
+            <line>
+              <![CDATA[get Thank You Text [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //h1[normalize-space()='Thank you']]]]>
+            </line>
+            <line>
+              <![CDATA[get Successful Text [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //strong[normalize-space()='Your order has been successfully processed!']]]]>
+            </line>
+            <line>
+              <![CDATA[click On Continue [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //button[normalize-space()='Continue']]]]>
+            </line>
+            <line>
+              <![CDATA[get Welcome Store Text [[ChromeDriver: chrome on WINDOWS (6abdc0ff42b0aa4dcbd43df9b5d0f886)] -> xpath: //h2[normalize-space()='Welcome to our store']]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductAddedToShoppingCartSuccessFully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.testsuite.TestSuite@1786f9d5]" name="tearDown" is-config="true" duration-ms="637" started-at="2023-05-10T23:50:43 BST" finished-at="2023-05-10T23:50:44 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommerce.testsuite.TestSuite@1786f9d5]" name="setUp" is-config="true" duration-ms="1460" started-at="2023-05-10T23:50:44 BST" finished-at="2023-05-10T23:50:45 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.nopcommerce.testsuite.TestSuite@1786f9d5]" name="init" is-config="true" duration-ms="3" started-at="2023-05-10T23:50:45 BST" finished-at="2023-05-10T23:50:45 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="verifyProductArrangeInAlphaBaticalOrder()[pri:0, instance:com.nopcommerce.testsuite.TestSuite@1786f9d5]" name="verifyProductArrangeInAlphaBaticalOrder" duration-ms="9612" started-at="2023-05-10T23:50:45 BST" finished-at="2023-05-10T23:50:55 BST">
+          <reporter-output>
+            <line>
+              <![CDATA[click On Computer Tab [[ChromeDriver: chrome on WINDOWS (2766321b317d316b98d4369a49f7d5e2)] -> xpath: //ul[@class='top-menu notmobile']//a[normalize-space()='Computers']]]]>
+            </line>
+            <line>
+              <![CDATA[click On Desktop [[ChromeDriver: chrome on WINDOWS (2766321b317d316b98d4369a49f7d5e2)] -> xpath: //li[@class='active last']//a[normalize-space()='Desktops']]]]>
+            </line>
+            <line>
+              <![CDATA[Get all product name after shorting ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductArrangeInAlphaBaticalOrder -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.testsuite.TestSuite@1786f9d5]" name="tearDown" is-config="true" duration-ms="621" started-at="2023-05-10T23:50:55 BST" finished-at="2023-05-10T23:50:55 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.testsuite.TestSuite -->
+    </test> <!-- regression -->
+  </suite> <!-- testsuite -->
+</testng-results>
